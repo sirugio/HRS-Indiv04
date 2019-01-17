@@ -6,7 +6,7 @@ package hrs.indiv04;
  */
 //ATRIBUTOS
 public class Usuario {
-    public static final int CAPACIDAD = 3;
+    public static final int CAPACIDAD = 10;
     private Usuario[] usuario;
     private int tamanno;
 

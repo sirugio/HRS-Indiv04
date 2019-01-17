@@ -10,7 +10,7 @@ public class E01 {
         int menor;
         suma = 0;
         mayor = 0;
-        menor = 0;
+        menor = 100;
         Scanner in = new Scanner(System.in);
         System.out.print("Introduce el tamaño del Array: ");
         int TAM = in.nextInt();
@@ -34,6 +34,6 @@ public class E01 {
             System.out.println(Array[i] + " ");
         }
         double resultado = suma / TAM;
-        System.out.println("La media de los número es: " + resultado);
+        System.out.println("La media de los número es: " + String.format("%.3f", resultado));
     }
 }
