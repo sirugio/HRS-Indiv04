@@ -33,7 +33,7 @@ public class E01 {
             suma += Array[i];
             System.out.println(Array[i] + " ");
         }
-        double resultado = suma / TAM;
-        System.out.println("La media de los número es: " + String.format("%.3f", resultado));
+        double resultado = ((double) suma) / TAM;
+        System.out.println("La media de los número es: " + resultado);
     }
 }

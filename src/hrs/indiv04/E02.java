@@ -15,13 +15,14 @@ public class E02 {
         int[] Array = new int[TAM];
         for (int i = 0; i < TAM; i++) {
             Array[i] = (int) Math.round(Math.random() * 100);
-            if (i % 2 != 0) {
+            if (Array[i] % 2 != 0) {
+                System.out.println("El número " + Array[i] + " es impar.");
                 impar++;
             } else {
+                System.out.println("El número " + Array[i] + " es par.");
                 par++;
             }
-            System.out.println(Array[i] + " ");
-        }        
+        }
         System.out.println("Hay " + par + " números pares, y " + impar + " números imapares.");
     }
 }
